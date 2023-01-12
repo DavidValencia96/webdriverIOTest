@@ -1,0 +1,12 @@
+1. Crear proyecto
+    npm init wdio ./path/to/new/project
+
+2. Crear carpeta "test/specs/ y en esta generar archivo *.JS
+
+3. Asignar ruta en archivo "wdio.conf.js"
+    specs: [
+        './test/specs/**/*.js'
+    ],
+
+4. Comando de consola para correr test:
+    npx wdio
