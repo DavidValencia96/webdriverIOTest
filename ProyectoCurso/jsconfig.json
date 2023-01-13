@@ -1,0 +1,11 @@
+// Archivo para autocomplete de ayudas
+
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/mocha-framework"
+        ]
+    }
+}
