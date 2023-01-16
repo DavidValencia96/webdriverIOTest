@@ -1,10 +1,14 @@
-// describe('Template de WebDriverIO', () =>{
-//     it('test-template-001', async () => { 
-//         await browser.url('')
-//         await browser.maximizeWindow()
-//         await browser.pause()
+describe('Template de WebDriverIO', () =>{
+    
+    // Variables globales
+    let time = 2000
 
-//         //Assert
-//         await expect(browser).toHaveTitle('')
-//     });
-// });
+    it('test-template-001', async () => { 
+        await browser.url('')
+        await browser.maximizeWindow()
+        await browser.pause()
+
+        //Assert
+        await expect(browser).toHaveTitle('')
+    });
+});

@@ -1,5 +1,5 @@
 describe('Elementos tipo click', () =>{
-    it('demo-1-click', async () => { 
+    it.only('demo-1-click', async () => { 
         await browser.url('https://demoqa.com/')
         await browser.maximizeWindow()
         await browser.pause(2500)
